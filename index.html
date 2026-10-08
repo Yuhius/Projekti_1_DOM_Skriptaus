@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1>Tehtävä-lista</h1>
+
+    <p>Tähän sovellukseen lisätään omia tehtäviä ja määritellään niille määräpäivä.
+        Syötä Tehtävä -kohtaan tehtävän nimi ja Määräpäivä-kohtaan päivä mihin mennessä tehtävä pitää olla suoritettu.
+    </p>
+
+    <form id="todoForm">
+        <div>
+            <label for="todoTask">Tehtävä:</label>
+
+            <input
+                type="text"
+                id="todoTask"
+                name="todoTask"
+                >
+        </div>
+
+        <div>
+            <label for="todoDate">Määräpäivä:</label>
+
+            <input
+                type="text"
+                id="todoDate"
+                name="todoDate"
+                >
+        </div>
+    </form>
+
+    <button id="addTask">Lisää</button>
 </body>
 </html>
