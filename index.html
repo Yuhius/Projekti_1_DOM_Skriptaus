@@ -24,7 +24,7 @@
                 name="todoTask"
                 >
         </div>
-
+        <br>
         <div>
             <label for="todoDate">Määräpäivä:</label>
 
@@ -34,8 +34,20 @@
                 name="todoDate"
                 >
         </div>
+        <br>
+        <button type="submit">Lisää</button>
     </form>
 
-    <button id="addTask">Lisää</button>
+    <br>
+
+    <table id="taskTable">
+        <thead>
+            <tr>
+                <th>Tehtävä</th>
+                <th>Määräpäivä</th>
+            </tr>
+        </thead>
+        <tbody id="taskTableBody"></tbody>
+    </table>
 </body>
 </html>
