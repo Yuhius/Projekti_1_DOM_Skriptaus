@@ -5,3 +5,50 @@ label {
 .completed {
     text-decoration: line-through;
 }
+
+body {
+    background-color: #34547f;
+    max-width: 1400px;
+    font-family: system-ui;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 1.6;
+    color: #fdfcfc;
+}
+
+table {
+    background-color: white;
+    width: 100%;
+    margin-top: 1.5rem;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #cccccc;
+}
+
+th {
+    color: white;
+    background-color: #010407;
+}
+
+tr {
+    color: #5299f7;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #02b2f8;
+    color: #fdfcfc;
+}
+
+#errorMessage {
+    color: rgb(233, 8, 8);
+    font-weight: bold;
+}
+
+.input-error {
+    border: 2px solid red;
+}
