@@ -58,15 +58,15 @@ todoForm.addEventListener("submit", function (event) {
     taskTableBody.append(row);
 });
 
-let tasks = [];
-
 const saveButton = document.querySelector("#saveButton");
 const loadButton = document.querySelector("#loadButton");
+const tulos = document.querySelector("#tulos");
 
 saveButton.addEventListener("click", tallenna);
 
 function tallenna() {
-    localStorage.setItem("tasks", JSON.stringify(tasks));
+    localStorage.setItem("tasks", taskTableBody.innerHTML);
+    tulos.textContent = "Tehtävälistasi on tallennettu!";
 }
 
 loadButton.addEventListener("click", hae);
@@ -76,24 +76,8 @@ function hae() {
 
     if (data === null) {
         tulos.textContent = "Ei ole tallennettua tietoa vielä.";
-        return;
+    } else {
+        taskTableBody.innerHTML = data;
+        tulos.textContent = "Tehtävät ladattu!";
     }
-
-    tasks = JSON.parse(data);
-
-    tulos.textContent = "Tehtävät ladattu!";
-
-    taskTableBody.innerHTML = "";
-
-    tasks.forEach(function (task) {
-        const row = document.createElement("tr");
-        const taskCell = document.createElement("td");
-        const dateCell = document.createElement("td");
-
-        taskCell.textContent = task.task;
-        dateCell.textContent = task.date;
-
-        row.append(taskCell, dateCell);
-        taskTableBody.append(row);
-    });
 }
