@@ -1,20 +1,21 @@
 # Projektin nimi
 
-**Tekijä(t):** Kirjoita tähän oma nimesi / tekijöiden nimet
+**Tekijä(t):** Juha Korhonen / Jon Mattila
 
 ## Projektisuunnitelma
 
 ### Projektin idea
 
-Kuvaile lyhyesti, mitä sovelluksesi tekee ja kenelle se on tarkoitettu.
+Sovellus on tehtävälista ja se on tarkoitettu niille ketkä haluavat listata tehtävänsä.
 
 ### Suunnitellut toiminnot
 
 Listaa vähintään kolme sovellukseesi suunniteltua toimintoa:
 
-- Toiminto 1
-- Toiminto 2
-- Toiminto 3
+- Tehtävien lisääminen listaan
+- Tehtävien luokitteleminen valmiiksi listassa
+- Tehtävien poistaminen listasta
+- Tehtävälistan tallentaminen localStorageen
 
 ### Rautalankamalli / luonnos
 
@@ -27,23 +28,21 @@ Esimerkki kuvan lisäämisestä:
 ## Verkkolinkit
 
 - **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://yourusername.github.io/your-repository/)
-- **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/yourusername/your-repository)
+- **GitHub-repositorio:** https://https://github.com/Yuhius/Projekti_1_DOM_Skriptaus
 - **Projektin videoesittely:** [Lisää tähän videon osoite](https://example.com/)
 
 ## Tietoja sovelluksesta
 
-**[Projektin nimi]** on verkkosovellus, joka ...
-
-Kuvaile lyhyesti sovelluksen tarkoitus ja tärkeimmät toiminnot.
+**Tehtävä-lista** on verkkosovellus, joka on tarkoitettu niille kenellä on vaikeuksia muistaa kaikkia tehtäviään. Tehtävä-listaan voi lisätä tehtäviä ja antaa niille määräpäivät mihin mennessä tehtävät pitää olla tehtynä. Listalta voi kuitata tehtäviä tehdyksi ja poistaa niitä tarpeen vaatiessa.
 
 ## Teknologiat
 
 Kuvaile, mitä teknologioita käytit ja mikä niiden rooli oli projektissasi.
 
-- HTML – sivun rakenne
-- CSS – ulkoasu ja asettelu
-- JavaScript – toiminnallisuus, DOM-skriptaus ja lomakkeiden validointi
-- localStorage – tietojen tallentaminen selaimeen, jos käytit sitä
+- HTML – otsikko, muu teksti, listan otsikkorivi ja kaikki napit
+- CSS – taustaväri sekä tekstin ja taulukon ulkoasu muokattu
+- JavaScript – kaikille napeille tehty toiminnat
+- localStorage – käytetään Tehtävä-listan tallentamiseen
 
 ## Sovelluksen käyttö
 
