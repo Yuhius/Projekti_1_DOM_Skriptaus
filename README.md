@@ -21,6 +21,8 @@ Listaa vähintään kolme sovellukseesi suunniteltua toimintoa:
 
 Lisää tähän kuva käsin piirtämästäsi tai digitaalisesti tehdystä sovelluksen luonnoksesta. Luonnoksessa tulee näkyä sovelluksen pääasiallinen näkymä ja tärkeimmät elementit.
 
+img/rautalankamalli.jpg
+
 Esimerkki kuvan lisäämisestä:
 
 ![Rautalankamalli](img/wireframe.png)
