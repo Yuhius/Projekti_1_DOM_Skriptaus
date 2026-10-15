@@ -35,6 +35,7 @@ todoForm.addEventListener("submit", function (event) {
     // Valmis-nappi
     const completeButton = document.createElement("button");
     completeButton.textContent = "Valmis";
+    completeButton.classList.add("complete-Button");
 
     completeButton.addEventListener("click", function () {
         taskCell.classList.toggle("completed");
@@ -44,6 +45,7 @@ todoForm.addEventListener("submit", function (event) {
     // Poista-nappi
     const deleteButton = document.createElement("button");
     deleteButton.textContent = "Poista";
+    deleteButton.classList.add("delete-Button");
 
     deleteButton.addEventListener("click", function () {
         row.remove();

@@ -52,3 +52,27 @@ tbody tr:nth-child(even) {
 .input-error {
     border: 2px solid red;
 }
+
+button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.complete-Button {
+    background-color: #10a034;
+    color: white;
+}
+
+.complete-Button:hover {
+    background-color: #095d1e;
+}
+
+.delete-Button {
+    background-color: #d30101;
+    color: white;
+}
+
+.delete-Button:hover {
+    background-color: #7e0101;
+}
