@@ -7,42 +7,53 @@
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
+    <!-- Sovelluksen otsikko -->
     <h1>Tehtävä-lista</h1>
 
-    <p>Tähän sovellukseen lisätään omia tehtäviä ja määritellään niille määräpäivä.
+    <!-- Ohje käyttäjälle: sovellukseen voi lisätä tehtäviä ja niiden määräpäiviä -->
+    <p>
+        Tähän sovellukseen lisätään omia tehtäviä ja määritellään niille määräpäivä.
         Syötä Tehtävä -kohtaan tehtävän nimi ja Määräpäivä-kohtaan päivä mihin mennessä tehtävä pitää olla suoritettu.
     </p>
 
+    <!-- Lomake, jonka avulla käyttäjä lisää uuden tehtävän -->
     <form id="todoForm">
         <div>
+            <!-- Label yhdistetään tehtävän syöttökenttään for-attribuutilla -->
             <label for="todoTask">Tehtävä:</label>
 
+            <!-- Tekstikenttä tehtävän nimen kirjoittamista varten -->
             <input
                 type="text"
                 id="todoTask"
                 name="todoTask"
-                >
+            >
         </div>
-        
+
         <div>
+            <!-- Label yhdistetään päivämääräkenttään -->
             <label for="todoDate">Määräpäivä:</label>
 
+            <!-- Päivämääräkenttä, josta käyttäjä valitsee tehtävän määräpäivän -->
             <input
                 type="date"
                 id="todoDate"
                 name="todoDate"
-                >
+            >
         </div>
-        
+
+        <!-- Lähettää lomakkeen ja käynnistää JavaScriptin tehtävän lisäystoiminnon -->
         <button type="submit">Lisää</button>
 
+        <!-- Tyhjä kappale, johon JavaScript näyttää mahdolliset virheilmoitukset -->
         <p id="errorMessage"></p>
     </form>
 
-    
-
+    <!-- Taulukko, johon lisätyt tehtävät näytetään -->
     <table id="taskTable">
+        <!-- Taulukon otsikkorivi määrittelee sarakkeiden nimet -->
         <thead>
             <tr>
                 <th>Tehtävä</th>
@@ -50,11 +61,21 @@
                 <th>Valmis/Poista</th>
             </tr>
         </thead>
+
+        <!-- Taulukon runko, johon JavaScript lisää tehtävien rivit -->
         <tbody id="taskTableBody"></tbody>
     </table>
+
+    <!-- Rivinvaihto taulukon ja painikkeiden väliin -->
     <br>
+
+    <!-- Tallennuspainike, jolla tehtävälista tallennetaan selaimen localStorageen -->
     <button id="saveButton">Tallenna</button>
+
+    <!-- Latauspainike, jolla aiemmin tallennettu tehtävälista palautetaan näkyviin -->
     <button id="loadButton">Lataa</button>
+
+    <!-- Kappale, johon JavaScript näyttää tallennuksen ja latauksen palautteet -->
     <p id="tulos"></p>
 </body>
 </html>

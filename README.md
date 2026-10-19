@@ -93,6 +93,7 @@ Pohdi työtäsi ja oppimisprosessiasi.
 - Vikojen korjaamiseen on kysytty neuvoa ChatGPT:ltä. Koodia ei kuitenkaan ole suoraan kopioita ChatGPT:ltä.
 - Käytetty hyväksi aikaisempia workshoppeja ja opiskelumateriaalia.
 - Font-familyt selvitettiin Google Font Familysta.
+- Käytetty ChatGPT:tä kommenttien jäsentelyyn.
 
   ## Lisenssi
 

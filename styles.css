@@ -1,78 +1,139 @@
+
+/* Asetetaan label-elementit omille riveilleen */
 label {
     display: block;
 }
 
+/* Merkitään suoritetut tehtävät yliviivauksella */
 .completed {
     text-decoration: line-through;
 }
 
+/* Määritellään koko sivun yleiset tyylit */
 body {
+    /* Sivun taustaväri */
     background-color: #34547f;
+
+    /* Sivun sisällön enimmäisleveys */
     max-width: 1400px;
+
+    /* Käytetään järjestelmän oletusfonttia */
     font-family: system-ui;
+
+    /* Keskitetään sisältö vaakasuunnassa */
     margin: 0 auto;
+
+    /* Lisätään tyhjää tilaa sivun reunojen ja sisällön väliin */
     padding: 2rem;
+
+    /* Määritellään tekstin riviväli */
     line-height: 1.6;
+
+    /* Asetetaan tekstin väri vaaleaksi */
     color: #fdfcfc;
 }
 
+/* Määritellään tehtävätaulukon ulkoasu */
 table {
+    /* Taulukon taustaväri */
     background-color: white;
+
+    /* Taulukko täyttää käytettävissä olevan leveyden */
     width: 100%;
+
+    /* Lisätään taulukon yläpuolelle tilaa */
     margin-top: 1.5rem;
+
+    /* Yhdistetään vierekkäisten solujen reunaviivat */
     border-collapse: collapse;
 }
 
+/* Määritellään taulukon otsikko- ja sisältösolujen tyylit */
 th,
 td {
+    /* Lisätään solujen sisälle tyhjää tilaa */
     padding: 0.75rem;
+
+    /* Tasataan solujen tekstit vasemmalle */
     text-align: left;
+
+    /* Lisätään soluille vaaleanharmaat reunaviivat */
     border: 1px solid #cccccc;
 }
 
+/* Muotoillaan taulukon otsikkosolut */
 th {
+    /* Otsikkotekstin väri */
     color: white;
+
+    /* Otsikkorivin taustaväri */
     background-color: #010407;
 }
 
+/* Asetetaan taulukon rivien oletustekstin väri */
 tr {
     color: #5299f7;
 }
 
+/* Väritetään taulukon joka toinen sisältörivi */
 tbody tr:nth-child(even) {
+    /* Vuorottelevan rivin taustaväri */
     background-color: #02b2f8;
+
+    /* Vuorottelevan rivin tekstin väri */
     color: #fdfcfc;
 }
 
+/* Muotoillaan lomakkeen virheilmoitus */
 #errorMessage {
+    /* Virheilmoituksen tekstin väri */
     color: rgb(233, 8, 8);
+
+    /* Tehdään virheilmoituksesta lihavoitu */
     font-weight: bold;
 }
 
+/* Korostetaan virheellinen syöttökenttä punaisella reunalla */
 .input-error {
     border: 2px solid red;
 }
 
+/* Määritellään kaikkien painikkeiden yhteiset tyylit */
 button {
+    /* Lisätään painikkeen sisälle tilaa */
     padding: 8px 16px;
+
+    /* Pyöristetään painikkeen kulmat */
     border-radius: 5px;
+
+    /* Muutetaan hiiren osoitin kädeksi painikkeen kohdalla */
     cursor: pointer;
 }
 
+/* Määritellään Valmis-painikkeen ulkoasu */
 .complete-Button {
+    /* Painikkeen taustaväri */
     background-color: #10a034;
+
+    /* Painikkeen tekstin väri */
     color: white;
 }
 
+/* Muutetaan Valmis-painikkeen väriä, kun hiiri on sen päällä */
 .complete-Button:hover {
     background-color: #095d1e;
 }
 
+/* Määritellään Poista-painikkeen ulkoasu */
 .delete-Button {
+    /* Painikkeen taustaväri */
     background-color: #d30101;
+
+    /* Painikkeen tekstin väri */
     color: white;
 }
 
+/* Muutetaan Poista-painikkeen väriä, kun hiiri on sen päällä */
 .delete-Button:hover {
     background-color: #7e0101;
 }
