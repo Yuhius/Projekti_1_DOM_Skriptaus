@@ -23,9 +23,9 @@ Listaa vähintään kolme sovellukseesi suunniteltua toimintoa:
 
 ## Verkkolinkit
 
-- **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://yourusername.github.io/your-repository/)
+- **Julkaistu sovellus:** https://yuhius.github.io/Projekti_1_DOM_Skriptaus/index.html
 - **GitHub-repositorio:** https://https://github.com/Yuhius/Projekti_1_DOM_Skriptaus
-- **Projektin videoesittely:** [Lisää tähän videon osoite](https://example.com/)
+- **Projektin videoesittely:** https://video.laurea.fi/media/Projekti+1+demo/0_mhjcswts
 
 ## Tietoja sovelluksesta
 
