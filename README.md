@@ -65,34 +65,34 @@ Takaisin ladattuja Tehtävä-listan rivejä ei pysty muokkaamaan niille tarkoite
 
 ## Työn jakautuminen
 
-*Täytä tämä osio vain, jos teit projektin parityönä.*
+Ohjelman toteutuksesta vastasivat Juha Korhonen ja Jon Mattila. Työskentely aloitettiin suunnittelemalla ohjelman rautalankamalli PowerPointilla. Ohjelman koodaus toteutettiin Juhan tietokoneella, ja projektin Git-repositorio sijaitsee Juhan hallinnoimassa ympäristössä.
 
-Kuvaile, miten työ jakautui ja miten yhteistyö sujui.
-
-- Tekijä 1: ...
-- Tekijä 2: ...
+Molemmat osapuolet osallistuivat aktiivisesti ohjelman kehittämiseen, ja työtehtävät jakautuivat tasaisesti tekijöiden kesken. Yhteistyö sujui hyvin ja ongelmitta koko projektin ajan. Ohjelmaa kehitettiin molempien vapaa-ajalla.
 
 ## Oma arvio ja oppimisen reflektointi
 
 Pohdi työtäsi ja oppimisprosessiasi.
 
 - Missä onnistuin?
+ - Ohjelma toimii suunnitelman mukaisesti.
 - Mikä oli haastavaa?
+ - Oppimateriaalin hyödyntäminen ei ollutkaan niin yksinkertaisesti vaan apua jouduttiin etsimään materiaalien ulkopuolelta.
 - Mitä parantaisin, jos aikaa olisi enemmän?
+ - Visuaalisuutta.
+ - Parantaisin toiminnallisuuden yksityiskohtia.
 - Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
+ - Opimme että JavaScriptillä voi lisätä asioita tyhjään html-elementtiin (esim. tyhjään p-elementtiin).
+ - Huomasimme että jos html-elementti luodaan javascriptillä niin sille pitää luoda oma class että sitä voi muokata CSS:llä.
 - Mikä jäi epäselväksi tai mistä haluaisin oppia lisää?
-- Oma arvio projektista: **xx/10 pistettä**
+ - localStoragen toimivuutta tarkemmin
+- Oma arvio projektista: **10/10 pistettä**
 
 ## Lähteet ja kiitokset
 
-Listaa kaikki projektissa käyttämäsi lähteet, tutoriaalit, kuvat ja koodiesimerkit.
-
-Jos käytit ChatGPT:tä, GitHub Copilotia tai muuta tekoälytyökalua, mainitse se tässä ja kerro lyhyesti, miten se tuki työskentelyäsi.
-
-- [Lähteen tai tutoriaalin nimi](https://example.com/)
-- [Kuvalähde](https://example.com/)
-- Käytetty tekoälytyökalu: ...
-  - Miten työkalua käytettiin: ...
+- Lopullinen työ on luotu opiskelijoiden omasta toimesta.
+- Vikojen korjaamiseen on kysytty neuvoa ChatGPT:ltä. Koodia ei kuitenkaan ole suoraan kopioita ChatGPT:ltä.
+- Käytetty hyväksi aikaisempia workshoppeja ja opiskelumateriaalia.
+- Font-familyt selvitettiin Google Font Familysta.
 
   ## Lisenssi
 
